@@ -46,7 +46,9 @@
   },
   "verification": {
     "level": "Observed",
-    "canonical_dump_status": "Unresolved",
-    "note": "Directly measured from the project-provided Korean ROM. Header identity is IPGK, version 0. The whole-ROM hash does not match the current GameTDB IPGK record, so canonical clean-dump identity is not claimed. Multiple core data archives nevertheless match PRET's HeartGold/SoulSilver USA filesystem hashes byte-for-byte."
+    "reference_role": "scene_comparison_source",
+    "clean_reference_status": "nonmatching",
+    "clean_reference_manifest": "manifests/clean_reference.json",
+    "note": "Directly measured IPGK v0 scene identity. Preserve unchanged for historical/content comparison. Do not use its whole-ROM hash for clean/matched claims; content-level records may still be verified independently."
   }
 }
