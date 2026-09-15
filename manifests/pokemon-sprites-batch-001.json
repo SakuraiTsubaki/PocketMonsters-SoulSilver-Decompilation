@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "pokemon-sprites-batch-001-bulbasaur",
+  "game": "Pocket Monsters SoulSilver",
+  "source_repository": "https://github.com/PokeAPI/sprites",
+  "source_tree": "sprites/pokemon/versions/generation-iv/heartgold-soulsilver",
+  "source_notice": "Upstream states image contents are Copyright The Pokemon Company; upstream repository is distributed under CC0 and notes third-party rights are not cleared.",
+  "verification": "External reference",
+  "files": [
+    {
+      "path": "assets/graphics/pokemon_sprites/001-bulbasaur/front.png",
+      "size": 722,
+      "sha256": "4f3d44577cf1b028a89385c58eab9aea2cfedb4176804ffbe08bc26dcf9a9a17"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/001-bulbasaur/back.png",
+      "size": 896,
+      "sha256": "5bd11c84e7cc4b49f9cbe91001baf4159f16190fd93b469cc11496195c290ffd"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/001-bulbasaur/shiny.png",
+      "size": 726,
+      "sha256": "576dd909bdccd6ca7a283c016b2168758ef3a13ec3f66e8799b379a8aae1e479"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/001-bulbasaur/back-shiny.png",
+      "size": 901,
+      "sha256": "ab250958d1569fd651a04a642a636c9c3d391e4d8d4ec3c9d963e0d78adb9e32"
+    }
+  ]
+}
