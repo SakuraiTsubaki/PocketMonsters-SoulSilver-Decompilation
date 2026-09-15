@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "game": "SoulSilver",
+  "region": "Korea",
+  "language": "Korean",
+  "target": {"title": "POKEMON SS", "game_code": "IPGK", "rom_version_byte": 0, "file_size": 134217728, "hashes": {"md5": "4e36e0c8c693d7cf52753f8601db5bbf", "sha1": "0330e6449306606114a92bdbb3f9d3d51d392b96", "sha256": "8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55"}},
+  "arm9": {"rom_offset": 16384, "rom_size": 765208, "load_address": 33554432, "entry_address": 33556480, "end_address": 34319640, "hashes": {"md5": "f8264b0351a1ac86870bcb75a873d329", "sha1": "8cf2235dc1fb9f01bcb42ba52e0f12af9d05e078", "sha256": "f09d0460c5678e1cd5611fd9d6426f7c11741f6e375ef0574775ea710951b8f6"}},
+  "arm7": {"rom_offset": 3111424, "rom_size": 161496, "load_address": 37224448, "entry_address": 37224448, "end_address": 37385944, "hashes": {"md5": "132bdfc8146b75a398046c8df991f763", "sha1": "1d0b3418b85fa8b5e1a9e345d3a182073cb968ac", "sha256": "746355ed51b324933542a7c4fcf109a5f83755a97c95b834ffd08caf6d4fafea"}},
+  "overlay_tables": {"arm9": {"rom_offset": 781824, "size": 4128, "count": 129}, "arm7": {"rom_offset": 0, "size": 0, "count": 0}},
+  "addressing_note": "Addresses are observed Nintendo DS runtime/load addresses from the ROM header and overlay table; names remain address-based until independently identified."
+}
