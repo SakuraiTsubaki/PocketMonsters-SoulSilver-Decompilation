@@ -1,0 +1,11 @@
+symbol,address,mode,kind,confidence,evidence
+_start,0x02000800,ARM,function,matched,"local Korean ROM machine code + pret/pokeheartgold crt0/main structure"
+INITi_CpuClear32,0x02000954,ARM,function,matched,"local ROM machine code; startup pattern matched"
+MIi_UncompressBackward,0x02000970,ARM,function,matched,"local ROM machine code; startup pattern matched"
+do_autoload,0x02000A1C,ARM,function,matched,"local ROM machine code; startup pattern matched"
+init_cp15,0x02000AB0,ARM,function,matched,"local ROM machine code; startup pattern matched"
+NitroStartUp,0x02000B98,ARM,function,matched,"local ROM machine code; startup pattern matched"
+_start_ModuleParams,0x02000BA0,data,object,matched,"literal reference from _start"
+_fp_init,0x020F39D0,ARM,function,matched,"direct BL from _start; HeartGold/SoulSilver startup role"
+__call_static_initializers,0x020F5144,ARM,function,matched,"direct BL from _start; HeartGold/SoulSilver startup role"
+NitroMain,0x02000CA4,Thumb,function,matched,"literal target from _start + local Thumb disassembly; structural match to pret/pokeheartgold main.c"
