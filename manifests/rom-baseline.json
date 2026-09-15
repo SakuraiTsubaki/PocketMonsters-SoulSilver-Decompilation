@@ -1,0 +1,36 @@
+{
+  "file_name": "포켓몬스터 소울실버.nds",
+  "file_size": 134217728,
+  "hashes": {
+    "md5": "4e36e0c8c693d7cf52753f8601db5bbf",
+    "sha1": "0330e6449306606114a92bdbb3f9d3d51d392b96",
+    "sha256": "8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55"
+  },
+  "title": "POKEMON SS",
+  "game_code": "IPGK",
+  "maker_code": "01",
+  "unit_code": 0,
+  "device_type": 0,
+  "device_capacity_code": 10,
+  "rom_version": 0,
+  "autostart": 0,
+  "arm9": {"rom_offset":16384,"entry_address":33556480,"ram_address":33554432,"size":765208},
+  "arm7": {"rom_offset":3111424,"entry_address":37224448,"ram_address":37224448,"size":161496},
+  "fnt": {"offset":3273216,"size":2884},
+  "fat": {"offset":3276288,"size":4088,"entry_count":511},
+  "arm9_overlay_table": {"offset":781824,"size":4128},
+  "arm7_overlay_table": {"offset":0,"size":0},
+  "banner_offset":3280384,
+  "declared_rom_size":124639804,
+  "header_size":16384,
+  "header_crc_stored":55319,
+  "header_crc_calculated":55319,
+  "header_crc_match":true,
+  "nitrofs": {
+    "file_count":382,
+    "extensions":{"<none>":265,".narc":44,".ncgr":13,".nsbtx":11,".nclr":9,".dat":9,".bin":7,".txt":5,".nanr":5,".ncer":4,".nscr":2,".nsbmd":2,".nsbca":2,".sdat":2,".atr":1,".inc":1},
+    "top_level_counts":{"a":265,"data":84,"pbr":23,"fielddata":6,"dwc":1,"msgdata":1,"poketool":1,"tel":1}
+  },
+  "overlays":{"arm9_count":129,"arm7_count":0},
+  "project_identity":{"game":"SoulSilver","region":"Korea","language":"Korean","verification_status":"Internal identity verified; external preservation hash verification pending"}
+}
