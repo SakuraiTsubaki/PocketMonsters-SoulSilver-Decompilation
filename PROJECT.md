@@ -6,9 +6,20 @@
 - Working target name: Pocket Monsters SoulSilver
 - Platform family: Nintendo DS
 - Series generation: Generation IV
-- Exact release, region, revision, and build: **not yet selected**
+- Exact release, region, revision, and build: **Korea Korean, game code `IPGK`, header ROM version `0`; local input identified, independent preservation-catalog match pending**
 
 The repository name is a working label, not proof of a particular binary. No address, symbol, format, or behavior should be treated as target fact until the exact build is identified.
+
+## Selected identifiers
+
+- Official/localized title: 포켓몬스터 소울실버
+- Game code: `IPGK`
+- Header title: `POKEMON SS`
+- Region and language: Korea, Korean
+- Header ROM version: `0`
+- Complete ROM size: `134217728` bytes
+- SHA-256: `8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55`
+- Evidence record: [`analysis/rom-identity.md`](analysis/rom-identity.md)
 
 ## Identity checklist
 

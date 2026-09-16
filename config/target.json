@@ -3,9 +3,56 @@
   "target": "Pocket Monsters SoulSilver",
   "platform_family": "Nintendo DS",
   "generation": "Generation IV",
-  "identity_status": "unselected",
-  "release": null,
-  "region": null,
-  "revision": null,
-  "hashes": []
+  "identity_status": "identified",
+  "release": {
+    "official_title": "포켓몬스터 소울실버",
+    "distribution_form": "Nintendo DS cartridge ROM image",
+    "game_code": "IPGK",
+    "header_title": "POKEMON SS",
+    "language": "Korean",
+    "input_provenance": "User-supplied local image; ROM bytes are not committed"
+  },
+  "region": "Korea",
+  "revision": {
+    "header_rom_version": 0,
+    "label": "Header ROM version 0"
+  },
+  "size_bytes": 134217728,
+  "header": {
+    "maker_code": "01",
+    "unit_code": 0,
+    "device_capacity_exponent": 10,
+    "nominal_capacity_bytes": 134217728,
+    "crc16_stored": "d817",
+    "crc16_calculated": "d817",
+    "crc16_valid": true
+  },
+  "hashes": [
+    {
+      "algorithm": "SHA-256",
+      "scope": "complete ROM",
+      "value": "8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55"
+    },
+    {
+      "algorithm": "SHA-1",
+      "scope": "complete ROM",
+      "value": "0330e6449306606114a92bdbb3f9d3d51d392b96"
+    },
+    {
+      "algorithm": "MD5",
+      "scope": "complete ROM",
+      "value": "4e36e0c8c693d7cf52753f8601db5bbf"
+    }
+  ],
+  "verification": {
+    "observed_at": "2026-09-16",
+    "tool": "SakuraiTsubaki/Decompilation tools/nds_rom_inventory",
+    "environment": "Windows 10.0.26200; PowerShell 7.6.5; Python 3.12.14",
+    "public_reference": {
+      "status": "pending",
+      "project": "pret/pokeheartgold",
+      "url": "https://github.com/pret/pokeheartgold",
+      "note": "The public project documents US HeartGold and SoulSilver targets, not this Korean localization; independent preservation-catalog matching remains pending."
+    }
+  }
 }
