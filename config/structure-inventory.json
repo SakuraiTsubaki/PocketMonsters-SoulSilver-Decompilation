@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "target_game_code": "IPGK",
+  "analyzer": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "commit": "dbc8272172cfc051e1108b14291a437d1c56bafb",
+    "path": "tools/nds_rom_analyzer/analyzer.py",
+    "version": "1.0.0"
+  },
+  "provenance": {
+    "generated_at": "2026-09-17",
+    "input_sha256": "8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55",
+    "input_size": 134217728,
+    "rom_bytes_committed": false
+  },
+  "command": "python tools/nds_rom_analyzer/analyzer.py /path/to/input.nds --output analysis/generated/rom-structure --label \"포켓몬스터 소울실버 (Korea, IPGK, header ROM version 0)\"",
+  "output_directory": "analysis/generated/rom-structure",
+  "validation": {
+    "all_checks_passed": true,
+    "checks": {
+      "actual_size_equals_nominal_capacity": true,
+      "used_rom_size_within_actual_file": true,
+      "header_crc16_valid": true,
+      "nintendo_logo_crc16_valid": true,
+      "all_banner_crc_checks_valid": true,
+      "all_fat_entries_have_fnt_or_overlay_reference": true,
+      "all_overlay_file_ids_exist_in_fat": true,
+      "fat_file_ranges_non_overlapping": true
+    },
+    "decrypted_secure_area_crc_validation": "not_performed"
+  },
+  "summary": {
+    "directory_count": 46,
+    "file_count": 511,
+    "mapped_file_count": 382,
+    "arm9_overlay_count": 129,
+    "arm7_overlay_count": 0,
+    "recognized_format_count": 373,
+    "extensionless_file_count": 394,
+    "extensionless_recognized_count": 277,
+    "narc_count": 308,
+    "unreferenced_range_count": 512
+  }
+}
