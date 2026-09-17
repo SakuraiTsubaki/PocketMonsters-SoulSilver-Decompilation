@@ -1,0 +1,14 @@
+{
+  "input_name": "포켓몬스터 소울실버.nds",
+  "title": "POKEMON SS",
+  "game_code": "IPGK",
+  "rom_version": 0,
+  "size": 134217728,
+  "crc32": "ce5cb206",
+  "sha256": "8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55",
+  "arm9_sha256": "f09d0460c5678e1cd5611fd9d6426f7c11741f6e375ef0574775ea710951b8f6",
+  "arm7_sha256": "746355ed51b324933542a7c4fcf109a5f83755a97c95b834ffd08caf6d4fafea",
+  "fat_file_count": 511,
+  "arm9_overlay_count": 129,
+  "arm7_overlay_count": 0
+}
