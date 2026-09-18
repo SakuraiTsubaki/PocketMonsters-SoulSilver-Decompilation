@@ -1,2 +1,0 @@
-id,target,state,evidence,patch
-G4-BAT-018,IPGK Rev 0,fixed_local,Pursuit subscript tuple 57/18/7/43 -> 57/7/18/43 verified in member 153,patches/acid_rain_pursuit.py
